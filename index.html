@@ -11,50 +11,52 @@
   <canvas id="bg-canvas"></canvas>
 
   <header>
-    <!-- Logo “J” néon -->
     <div class="avatar-letter">J</div>
-
     <h1 class="neon-title">⚡ Les Projets Futuristes de JiRaYaOG ⚡</h1>
     <p class="neon-subtitle">Une collection de créations cyberpunk et néon</p>
   </header>
 
   <main>
     <section class="projects">
-      <!-- Cartes projets -->
-      <div class="card">
-        <h2>Mini-Portfolio Futuriste</h2>
-        <p>Une page personnelle élégante avec fond animé et style néon.</p>
-        <a href="https://jirayaog.github.io/mini-portfolio/" target="_blank">🔗 Voir le site</a>
-        <a href="https://github.com/JiRaYaOG/mini-portfolio" target="_blank">💻 Voir le code</a>
+      <!-- Première ligne : 3 cartes -->
+      <div class="row">
+        <div class="card">
+          <h2>Mini-Portfolio Futuriste</h2>
+          <p>Une page personnelle élégante avec fond animé et style néon.</p>
+          <a href="https://jirayaog.github.io/mini-portfolio/" target="_blank">🔗 Voir le site</a>
+          <a href="https://github.com/JiRaYaOG/mini-portfolio" target="_blank">💻 Voir le code</a>
+        </div>
+
+        <div class="card">
+          <h2>Todo List Futuriste</h2>
+          <p>Une application pour gérer ses tâches avec un look cyberpunk.</p>
+          <a href="https://jirayaog.github.io/Todo-list-futuriste/" target="_blank">🔗 Voir le site</a>
+          <a href="https://github.com/JiRaYaOG/Todo-list-futuriste" target="_blank">💻 Voir le code</a>
+        </div>
+
+        <div class="card">
+          <h2>Tic-Tac-Toe Futuriste</h2>
+          <p>Un jeu de morpion stylé, lumineux et réactif.</p>
+          <a href="https://jirayaog.github.io/Tic-Tac-Toe-futuriste/" target="_blank">🔗 Voir le site</a>
+          <a href="https://github.com/JiRaYaOG/Tic-Tac-Toe-futuriste" target="_blank">💻 Voir le code</a>
+        </div>
       </div>
 
-      <div class="card">
-        <h2>Todo List Futuriste</h2>
-        <p>Une application pour gérer ses tâches avec un look cyberpunk.</p>
-        <a href="https://jirayaog.github.io/Todo-list-futuriste/" target="_blank">🔗 Voir le site</a>
-        <a href="https://github.com/JiRaYaOG/Todo-list-futuriste" target="_blank">💻 Voir le code</a>
-      </div>
+      <!-- Deuxième ligne : 2 cartes centrées -->
+      <div class="row center-row">
+        <div class="card">
+          <h2>GitHub API Futuriste</h2>
+          <p>Un outil pour explorer tes repositories GitHub avec effet néon.</p>
+          <a href="https://jirayaog.github.io/GitHub-API-futuriste/" target="_blank">🔗 Voir le site</a>
+          <a href="https://github.com/JiRaYaOG/GitHub-API-futuriste" target="_blank">💻 Voir le code</a>
+        </div>
 
-      <div class="card">
-        <h2>Tic-Tac-Toe Futuriste</h2>
-        <p>Un jeu de morpion stylé, lumineux et réactif.</p>
-        <a href="https://jirayaog.github.io/Tic-Tac-Toe-futuriste/" target="_blank">🔗 Voir le site</a>
-        <a href="https://github.com/JiRaYaOG/Tic-Tac-Toe-futuriste" target="_blank">💻 Voir le code</a>
-      </div>
-
-      <!-- Cartes du bas centrées -->
-      <div class="card">
-        <h2>GitHub API Futuriste</h2>
-        <p>Un outil pour explorer tes repositories GitHub avec effet néon.</p>
-        <a href="https://jirayaog.github.io/GitHub-API-futuriste/" target="_blank">🔗 Voir le site</a>
-        <a href="https://github.com/JiRaYaOG/GitHub-API-futuriste" target="_blank">💻 Voir le code</a>
-      </div>
-
-      <div class="card">
-        <h2>Background Cyberpunk</h2>
-        <p>Une expérimentation graphique avec fond animé et effets de glow.</p>
-        <a href="https://jirayaog.github.io/Background-cyberpunk/" target="_blank">🔗 Voir le site</a>
-        <a href="https://github.com/JiRaYaOG/Background-cyberpunk" target="_blank">💻 Voir le code</a>
+        <div class="card">
+          <h2>Background Cyberpunk</h2>
+          <p>Une expérimentation graphique avec fond animé et effets de glow.</p>
+          <a href="https://jirayaog.github.io/Background-cyberpunk/" target="_blank">🔗 Voir le site</a>
+          <a href="https://github.com/JiRaYaOG/Background-cyberpunk" target="_blank">💻 Voir le code</a>
+        </div>
       </div>
     </section>
   </main>
@@ -63,41 +65,6 @@
     © 2025 JiRaYaOG – Tous droits réservés ⚙️
   </footer>
 
-  <!-- Script pour le fond animé léger -->
-  <script>
-    const canvas = document.getElementById("bg-canvas");
-    const ctx = canvas.getContext("2d");
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-
-    let particles = [];
-    for (let i = 0; i < 80; i++) {
-      particles.push({
-        x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height,
-        r: Math.random() * 2,
-        dx: (Math.random() - 0.5) * 0.7,
-        dy: (Math.random() - 0.5) * 0.7,
-      });
-    }
-
-    function animate() {
-      ctx.fillStyle = "rgba(0, 0, 0, 0.1)";
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-      ctx.fillStyle = "rgba(0,255,255,0.8)";
-      particles.forEach(p => {
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-        ctx.fill();
-        p.x += p.dx;
-        p.y += p.dy;
-        if (p.x < 0 || p.x > canvas.width) p.dx *= -1;
-        if (p.y < 0 || p.y > canvas.height) p.dy *= -1;
-      });
-      requestAnimationFrame(animate);
-    }
-
-    animate();
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
