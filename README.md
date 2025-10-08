@@ -1,50 +1,45 @@
-JiRaYaOG Futuristic Projects 🚀
+⚡ JiRaYaOG Futuristic Projects ⚡
 
-Collection de projets web au style cyberpunk et néon, réalisés pour explorer le HTML, CSS et JavaScript avec des effets futuristes.
+Une collection de projets cyberpunk / néon réalisés en HTML, CSS et JS.
 
-💡 Aperçu
+🌌 Aperçu
 
-Découvrez tous mes projets futuristes dans un seul espace avec un fond animé et un design néon élégant.
+Un hub futuriste pour explorer mes projets web : fond animé, glow sur hover, design cyberpunk et cartes interactives.
 
-🔗 Site Web en ligne : [JiRaYaOG Futuristic Projects](https://jirayaog.github.io/JiRaYaOG-futuristic-projects/)
+🌐 Voir le site en ligne
 
-🛠️ Projets inclus
-#	Projet	Description	Lien site	Lien code
-1	Mini-Portfolio Futuriste	Page personnelle avec fond animé et style néon.	Voir
+💾 Projets inclus
+🚀 Projet	✨ Description	🌐 Site	💻 Code
+Mini-Portfolio	Page personnelle animée et néon	Voir
 	Code
 
-2	Todo List Futuriste	Gestion de tâches avec interface cyberpunk et glow au survol.	Voir
+Todo List Futuriste	Gestion de tâches avec interface glow	Voir
 	Code
 
-3	Tic-Tac-Toe Futuriste	Jeu de morpion interactif avec animations lumineuses.	Voir
+Tic-Tac-Toe Futuriste	Jeu de morpion interactif lumineux	Voir
 	Code
 
-4	GitHub API Futuriste	Explore tes repositories GitHub avec affichage dynamique et style néon.	Voir
+GitHub API Futuriste	Explore tes repos GitHub avec style néon	Voir
 	Code
 
-5	Background Cyberpunk	Fond animé avec particules et glow pour un effet cyberpunk immersif.	Voir
+Background Cyberpunk	Fond animé avec particules et glow	Voir
 	Code
-✨ Fonctionnalités
+⚡ Fonctionnalités principales
 
-Design futuriste / néon / cyberpunk.
+💎 Design futuriste & néon
 
-Fond animé avec particules pour tous les projets.
+🌌 Fond animé cyberpunk
 
-Disposition responsive pour mobile et desktop.
+✨ Effets hover glow sur cartes & boutons
 
-Cartes projets interactives avec effet hover glow.
+📱 Responsive mobile / desktop
 
-Tous les projets sont en HTML, CSS et JavaScript purs, faciles à explorer et à modifier.
+💻 Projets en HTML, CSS, JS prêts à personnaliser
 
-📂 Organisation du projet
-
-index.html : Page principale avec liste de projets.
-
-styles.css : Styles futuristes et néon.
-
-script.js : Fond animé avec particules et effet cyberpunk.
-
-Chaque projet a son propre repo GitHub et site déployé.
+📂 Structure du projet
+index.html  -> Page principale
+styles.css  -> Styles néon / futuristes
+script.js   -> Fond animé / particules
 
 ⚡ Contact & Suivi
 
