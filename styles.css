@@ -11,9 +11,9 @@ body {
 
   display: flex;
   flex-direction: column;
-  justify-content: center; /* centre verticalement */
-  align-items: center;     /* centre horizontalement */
-  min-height: 100vh;       /* occupe toute la hauteur */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 /* Canvas pour le fond animé */
@@ -32,11 +32,7 @@ body {
   font-size: 72px;
   font-weight: bold;
   color: #fff;
-  text-shadow:
-    0 0 10px #0ff,
-    0 0 20px #0ff,
-    0 0 30px #f0f,
-    0 0 40px #f0f;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #f0f, 0 0 40px #f0f;
   background: radial-gradient(circle at center, rgba(0,255,255,0.15), transparent 70%);
   width: 120px;
   height: 120px;
@@ -51,11 +47,7 @@ body {
 
 .avatar-letter:hover {
   transform: scale(1.1);
-  text-shadow:
-    0 0 15px #0ff,
-    0 0 30px #0ff,
-    0 0 50px #f0f,
-    0 0 80px #f0f;
+  text-shadow: 0 0 15px #0ff, 0 0 30px #0ff, 0 0 50px #f0f, 0 0 80px #f0f;
   box-shadow: 0 0 30px #0ff, 0 0 60px #f0f;
 }
 
@@ -86,7 +78,7 @@ body {
 }
 
 .projects > .card:nth-last-child(-n+2) {
-  grid-column: 2 / span 1; /* Centrage des 2 dernières cartes */
+  grid-column: 2 / span 1;
 }
 
 @media (max-width: 900px) {
@@ -94,7 +86,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
   .projects > .card:nth-last-child(-n+2) {
-    grid-column: auto; /* Reset pour tablette */
+    grid-column: auto;
   }
 }
 
