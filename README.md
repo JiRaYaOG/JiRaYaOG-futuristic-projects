@@ -1,48 +1,19 @@
-⚡ JiRaYaOG Futuristic Projects ⚡
+# 🚀 JiRaYaOG Futuristic Projects
 
-Une collection de projets cyberpunk / néon réalisés en HTML, CSS et JS.
+Bienvenue sur ma vitrine **cyberpunk et néon** regroupant mes 5 projets GitHub Pages :
 
-🌌 Aperçu
+| # | Projet | Description | Lien |
+|---|---------|--------------|------|
+| 1 | **Mini-Portfolio Futuriste** | Page personnelle stylisée avec fond animé. | [Visiter](https://jirayaog.github.io/mini-portfolio/) |
+| 2 | **Todo List Futuriste** | Application de gestion de tâches avec design cyberpunk. | [Visiter](https://jirayaog.github.io/Todo-list-futuriste/) |
+| 3 | **Tic-Tac-Toe Futuriste** | Jeu interactif de morpion avec effets néon. | [Visiter](https://jirayaog.github.io/Tic-Tac-Toe-futuriste/) |
+| 4 | **GitHub API Futuriste** | Affichage de mes repos GitHub avec effet futuriste. | [Visiter](https://jirayaog.github.io/GitHub-API-futuriste/) |
+| 5 | **Background Cyberpunk** | Expérimentation graphique de fond animé. | [Visiter](https://jirayaog.github.io/Background-cyberpunk/) |
 
-Un hub futuriste pour explorer mes projets web : fond animé, glow sur hover, design cyberpunk et cartes interactives.
+---
 
-🌐 Voir le site en ligne
+✨ **Design :** Inspiré du style *néon futuriste* — effets lumineux, animations douces, et esthétique cyberpunk.  
+🧠 **Objectif :** Centraliser mes projets front-end créatifs en un seul endroit.
 
-💾 Projets inclus
-🚀 Projet	✨ Description	🌐 Site	💻 Code
-Mini-Portfolio	Page personnelle animée et néon	Voir
-	Code
-
-Todo List Futuriste	Gestion de tâches avec interface glow	Voir
-	Code
-
-Tic-Tac-Toe Futuriste	Jeu de morpion interactif lumineux	Voir
-	Code
-
-GitHub API Futuriste	Explore tes repos GitHub avec style néon	Voir
-	Code
-
-Background Cyberpunk	Fond animé avec particules et glow	Voir
-	Code
-⚡ Fonctionnalités principales
-
-💎 Design futuriste & néon
-
-🌌 Fond animé cyberpunk
-
-✨ Effets hover glow sur cartes & boutons
-
-📱 Responsive mobile / desktop
-
-💻 Projets en HTML, CSS, JS prêts à personnaliser
-
-📂 Structure du projet
-index.html  -> Page principale
-styles.css  -> Styles néon / futuristes
-script.js   -> Fond animé / particules
-
-⚡ Contact & Suivi
-
-GitHub : [JiRaYaOG](https://github.com/JiRaYaOG)
-
-Portfolio complet : [Mini-Portfolio](https://jirayaog.github.io/mini-portfolio/)
+---
+© 2025 JiRaYaOG
