@@ -66,7 +66,7 @@ body {
   margin-bottom: 40px;
 }
 
-/* Grille des projets */
+/* Grille des projets : 3 en haut, 2 en bas centrées */
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -77,9 +77,16 @@ body {
   margin: 0 auto 60px auto;
 }
 
+.projects > .card:nth-last-child(-n+2) {
+  grid-column: 2 / span 1; /* Centrage des 2 dernières cartes */
+}
+
 @media (max-width: 900px) {
   .projects {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .projects > .card:nth-last-child(-n+2) {
+    grid-column: auto; /* Reset pour tablette */
   }
 }
 
@@ -99,6 +106,13 @@ body {
   transition: transform 0.3s, box-shadow 0.3s;
   text-align: center;
   box-shadow: 0 0 10px #0ff2;
+}
+
+/* Gradient néon sur titre et hover glow sur carte */
+.card h2 {
+  background: linear-gradient(90deg, #0ff, #f0f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .card:hover {
