@@ -1,22 +1,13 @@
-/* Corps de la page : centrage vertical et horizontal */
 body {
   font-family: 'Orbitron', sans-serif;
   margin: 0;
   padding: 0;
-  color: #ffffff;
-  text-align: center;
+  background: #000;
+  color: #fff;
   overflow-x: hidden;
-  position: relative;
-  background: #000000;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  text-align: center;
 }
 
-/* Canvas pour le fond animé */
 #bg-canvas {
   position: fixed;
   top: 0;
@@ -24,6 +15,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
+  background: radial-gradient(circle at center, #0ff3, #00f1, #000);
 }
 
 /* Logo lettre “J” */
@@ -32,7 +24,11 @@ body {
   font-size: 72px;
   font-weight: bold;
   color: #fff;
-  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #f0f, 0 0 40px #f0f;
+  text-shadow:
+    0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 30px #f0f,
+    0 0 40px #f0f;
   background: radial-gradient(circle at center, rgba(0,255,255,0.15), transparent 70%);
   width: 120px;
   height: 120px;
@@ -47,7 +43,11 @@ body {
 
 .avatar-letter:hover {
   transform: scale(1.1);
-  text-shadow: 0 0 15px #0ff, 0 0 30px #0ff, 0 0 50px #f0f, 0 0 80px #f0f;
+  text-shadow:
+    0 0 15px #0ff,
+    0 0 30px #0ff,
+    0 0 50px #f0f,
+    0 0 80px #f0f;
   box-shadow: 0 0 30px #0ff, 0 0 60px #f0f;
 }
 
@@ -78,7 +78,7 @@ body {
 }
 
 .projects > .card:nth-last-child(-n+2) {
-  grid-column: 2 / span 1;
+  grid-column: 2 / span 1; /* Centrage des 2 dernières cartes */
 }
 
 @media (max-width: 900px) {
@@ -86,7 +86,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
   .projects > .card:nth-last-child(-n+2) {
-    grid-column: auto;
+    grid-column: auto; /* Reset pour tablette */
   }
 }
 
@@ -144,3 +144,4 @@ footer {
   from { text-shadow: 0 0 10px #0ff; }
   to { text-shadow: 0 0 25px #0ff, 0 0 50px #f0f; }
 }
+
