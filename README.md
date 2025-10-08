@@ -1,6 +1,6 @@
 JiRaYaOG Futuristic Projects 🚀
 
-Bienvenue sur JiRaYaOG Futuristic Projects, une collection de projets web au style cyberpunk et néon, réalisés pour explorer le HTML, CSS et JavaScript avec des effets futuristes.
+Bienvenue sur ma collection de projets web au style cyberpunk et néon, réalisés pour explorer le HTML, CSS et JavaScript avec des effets futuristes.
 
 💡 Aperçu
 
