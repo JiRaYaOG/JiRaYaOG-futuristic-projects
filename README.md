@@ -6,7 +6,7 @@ Collection de projets web au style cyberpunk et néon, réalisés pour explorer 
 
 Découvrez tous mes projets futuristes dans un seul espace avec un fond animé et un design néon élégant.
 
-🔗 Site Web en ligne : JiRaYaOG Futuristic Projects
+🔗 Site Web en ligne : [JiRaYaOG Futuristic Projects](https://jirayaog.github.io/JiRaYaOG-futuristic-projects/)
 
 🛠️ Projets inclus
 #	Projet	Description	Lien site	Lien code
@@ -48,6 +48,6 @@ Chaque projet a son propre repo GitHub et site déployé.
 
 ⚡ Contact & Suivi
 
-GitHub : JiRaYaOG
+GitHub : [JiRaYaOG](https://github.com/JiRaYaOG)
 
-Portfolio complet : Mini-Portfolio
+Portfolio complet : [Mini-Portfolio](https://jirayaog.github.io/mini-portfolio/)
