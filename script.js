@@ -1,11 +1,10 @@
-// Simple animation légère sur le fond (canvas)
+// Canvas léger pour le fond animé
 const canvas = document.getElementById("bg-canvas");
 const ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 let particles = [];
-
 for (let i = 0; i < 80; i++) {
   particles.push({
     x: Math.random() * canvas.width,
