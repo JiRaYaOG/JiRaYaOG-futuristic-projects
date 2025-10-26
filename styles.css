@@ -140,3 +140,10 @@ footer {
     align-items: center;
   }
 }
+/* --- Fix: Centrer uniquement les valeurs (pas les titres) 
+   dans les deux premières colonnes du tableau --- */
+table td:nth-child(1),
+table td:nth-child(2) {
+  text-align: center;
+  vertical-align: middle;
+}
